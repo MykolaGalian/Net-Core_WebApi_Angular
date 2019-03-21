@@ -1,0 +1,24 @@
+                              <!-- метод  onSubmit(form) передает данные из полей формы (form - локальная ссылка на форму), после нажатия кнопки button type="submit"-->
+<form #form="ngForm" autocomplete="off"  (submit)="onSubmit(form)">    
+    <input type="hidden" name="PMId" [value]="service.formData.PMId">  <!-- присваиваем 0 для PMId, т.к. иначе отправляется null для int для обновления - игнорируется-->
+  <div class="form-group">
+  <input name="CardOwnerName" #CardOwnerName="ngModel" [(ngModel)]="service.formData.CardOwnerName" class="form-control"
+        placeholder="Владелец банковской карты" required>   <!-- #CardOwnerName="ngModel" - локальная ссылка не только на элемент но на сам контроллер ngModel, теперь в CardOwnerName нам доступно не только значение модели, но и все дополнительные свойства и методы контроллера модели-->
+  </div>                                   <!-- значение из переменной сервиса (из конструктора текущего компонента) service.formData.CardOwnerName-->
+  
+  <div class="form-group">
+      <input name="CardNumber" #CardNumber="ngModel" [(ngModel)]="service.formData.CardNumber" class="form-control" placeholder="16 цифр - номер банковской карты" required maxlength="16" minlength="16">   
+  </div>                        
+  
+  <div class="form-group">
+      <input name="ExpirationDate" #ExpirationDate="ngModel" [(ngModel)]="service.formData.ExpirationDate" class="form-control" placeholder="Дата окончания срока использования" required>   
+  </div> 
+
+  <div class="form-group">
+      <input type="password" name="CVV" #CVV="ngModel" [(ngModel)]="service.formData.CVV" class="form-control" placeholder="CVV код" required>   
+  </div> 
+  <div class="form-group">
+      <button class="btn btn-success btn-lg btn-block" type="submit"> Сохранить</button>
+    </div>
+
+</form>

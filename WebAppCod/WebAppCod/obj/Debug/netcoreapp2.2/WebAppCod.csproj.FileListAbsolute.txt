@@ -1,0 +1,14 @@
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\bin\Debug\netcoreapp2.2\WebAppCod.deps.json
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\bin\Debug\netcoreapp2.2\WebAppCod.runtimeconfig.json
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\bin\Debug\netcoreapp2.2\WebAppCod.runtimeconfig.dev.json
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\bin\Debug\netcoreapp2.2\WebAppCod.dll
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.csprojAssemblyReference.cache
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.csproj.CoreCompileInputs.cache
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.RazorAssemblyInfo.cache
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.RazorAssemblyInfo.cs
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.AssemblyInfoInputs.cache
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.AssemblyInfo.cs
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.RazorTargetAssemblyInfo.cache
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\bin\Debug\netcoreapp2.2\WebAppCod.pdb
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.dll
+C:\Users\kolya\source\repos\WebAppCod\WebAppCod\obj\Debug\netcoreapp2.2\WebAppCod.pdb

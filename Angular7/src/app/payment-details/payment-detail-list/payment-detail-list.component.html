@@ -1,0 +1,17 @@
+<table class="table table-hover">
+    <thead class="thead-light">
+    <tr >
+        <th>ФИО</th>
+        <th>Номер карты</th>
+        <th>Дата окончания использования</th>
+     </tr>
+     </thead>
+  <tr *ngFor="let pd of service.list">
+    <td (click)="populateForm(pd)">{{pd.CardOwnerName}}</td>
+    <td (click)="populateForm(pd)">{{pd.CardNumber}}</td>
+    <td (click)="populateForm(pd)">{{pd.ExpirationDate}}</td>
+    <td>
+      <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(pd.PMId)"></i>  <!-- Для удаления элемента -корзина- передача в метод onDelete Id-->
+    </td>
+  </tr>
+</table>
